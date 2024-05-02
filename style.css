@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&family=Titan+One&display=swap');
+*{
+    text-align: center;
+}
+h1{
+    font-family: 'Squada One';
+}
+.table{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+    width: 300px;
+    margin-left: 28%;
+    margin-right: 28%;
+    
+}
+.pic{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+#playButton{
+    color: blue;
+    background-color: azure;
+    border: solid 1px black;
+    height: 3rem;
+    width: 10rem;
+    margin-bottom: 1em;
+    font-family: 'Titan One';
+    font-weight: 400;
+    font-size: larger;
+    border-radius: 20px;
+}
+#playButton:hover{
+    cursor: pointer;
+}
